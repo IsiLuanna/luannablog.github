@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('imagemDeFundo.jpg');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #0a0a0a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vila{
+  background-color: #ccc7c7;
+  padding: 10px;
+  border-radius: 150px;
+  border-width: 150%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 50 90px;
+  padding: 0;
+  background-color: #4582b0;
+  border-radius: 90px;
+}
+
+nav a.folha {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a.folha:hover {
+  color: #a82929;
+}

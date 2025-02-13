@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Conversor de Massa</title>
+    <link href="styleConversorMassa.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <nav class="vila">
+          <ul>
+            <li><a class="folha" href="index.html">Perfil</a></li><br>
+            <li><a class="folha" href="sobre.html">Sobre</a></li><br>
+            <li><a class="folha" href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+        </header>
+    <h1>Conversor de Massa</h1>
+    <div class="converter">
+        <label for="quilos">Digite o peso em Quilos:</label>
+        <input id="quilos" type="number" placeholder="Digite o peso em kg" />
+        <div class="buttons">
+            <button onclick="converterParaLibras()">Converter para Libras</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script src="scriptConversorMassa.js"></script>
+</body>
+</html>

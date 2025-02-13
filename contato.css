@@ -1,0 +1,116 @@
+body {
+  background-image: url('contato.jepg.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #0a0a0a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #ccc7c7;
+  padding: 10px;
+  border-radius: 150px;
+  border-width: 150%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 50 90px;
+  padding: 0;
+  background-color: #4582b0;
+  border-radius: 90px;
+}
+
+nav a.folha {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a.folha:hover {
+  color: #a82929;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #4582b0;
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4582b0;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3671a0;
+}
+
+@media (max-width: 600px) {
+  .container {
+      padding: 20px;
+      margin: 10px;
+  }
+}

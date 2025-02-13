@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleQuiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 id="pergunta">Como é meu nome completo?</h2>
+        <div class="options">
+            <button class="option" onclick="verificarResposta(0)"></button>
+            <button class="option" onclick="verificarResposta(1)">Opção 2</button>
+            <button class="option" onclick="verificarResposta(2)">Opção 3</button>
+            <button class="option" onclick="verificarResposta(3)">Opção 4</button>
+        </div>
+        <div id="resultado"></div>
+        <button onclick="proximaPergunta()">Próxima Pergunta</button>
+    </div>
+    <script src="scriptQuiz.js"></script>
+</body>
+</html>

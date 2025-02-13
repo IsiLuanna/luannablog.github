@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora</title>
+  <link href="styleCalculadora.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <nav class="vila">
+      <ul>
+        <li><a class="folha" href="index.html">Perfil</a></li><br>
+        <li><a class="folha" href="sobre.html">Sobre</a></li><br>
+        <li><a class="folha" href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+    </header>
+  <h1>Calculadora</h1>
+  <h2>Vamos calcular?</h2>
+  <div class="calculator">
+    <input id="number1" type="number" placeholder="Digite o 1º número" />
+    <input id="number2" type="number" placeholder="Digite o 2º número" />
+    <div class="buttons">
+      <button onclick="calcular('soma')">Somar</button>
+      <button onclick="calcular('subtracao')">Subtrair</button>
+      <button onclick="calcular('multiplicacao')">Multiplicar</button>
+      <button onclick="calcular('divisao')">Dividir</button>
+    </div>
+    <div id="resultado"></div>
+  </div>
+  <main> 
+  <script src="scriptCalculadora.js"></script>
+  </main>
+</body>
+</html>

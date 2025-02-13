@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('../../gaara.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.converter {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+input {
+  width: 200px;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4582b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3671a0;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
